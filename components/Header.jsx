@@ -9,9 +9,6 @@ export default function Header() {
         </Link>
       </div>
       <div className="">
-   <Link href="/">
-          <a className="text-xl font-bold">about</a>
-        </Link>
-      </div>
+       </div>
   )
 }
