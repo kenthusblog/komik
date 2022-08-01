@@ -29,6 +29,7 @@ export default function Layouts({ children, title }) {
       </Head>
 
       <Header />
+      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62e810b8a6cfe400199aef93&product=sop' async='async'></script>
       <Contents body={children} />
       
       <BottomNavigation />
