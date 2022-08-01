@@ -25,6 +25,7 @@ export default function Layouts({ children, title }) {
       </Head>
 
       <Header />
+      <BottomNavigation />
       <Contents body={children} />
       <Footer />
       <BottomNavigation />
