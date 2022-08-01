@@ -98,7 +98,6 @@ export default function Details() {
           </table>
         </div>
       </div>
-    <div class="sharethis-inline-share-buttons"></div>
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
