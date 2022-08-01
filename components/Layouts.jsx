@@ -11,7 +11,16 @@ export default function Layouts({ children, title }) {
       <Head>
        <meta name="viewport" content="width=device-width, initial-scale=1" />
        <meta charSet="utf-8" />
-       
+       <meta property="og:url" content="your url" />
+        <meta property="og:type" content="website" />
+        <meta property="fb:app_id" content="your fb id" />
+        <meta property="og:title" content={title ? `${appName} - ${title}` : appName} />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          property="og:description"
+          content="Comic Online"
+        />
+        <meta property="og:image" content={photo?.url} />
               
         <title>{title ? `${appName} - ${title}` : appName}</title>
         <link rel="icon" href="/favicon.ico" />
