@@ -26,8 +26,7 @@ export default function Layouts({ children, title }) {
           href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-       <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62e810b8a6cfe400199aef93&product=sop' async='async'></script>
-
+       <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62e810b76895ac00191eaa92&product=sop' async='async'></script>
       </Head>
 
       <Header />
