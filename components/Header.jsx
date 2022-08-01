@@ -8,7 +8,12 @@ export default function Header() {
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
       </div>
-      <div className=""></div>
+      <div className="">
+    <li className={`mx-3 ${activeNavLink("/about")}`}>
+         <Link to="/about">
+         <i className="fab fa-angular text-lg px-1"></i> Tentang
+          </Link>
+          </li></div>
     </div>
   )
 }
