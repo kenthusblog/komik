@@ -30,7 +30,7 @@ const navs = [
     title: 'Search',
     path: ['/search'],
     icon: <SearchCircleIcon className="w-6" />
-  }, <Footer />      
+  }     
 ]
 
 
