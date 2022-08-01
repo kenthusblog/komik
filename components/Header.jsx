@@ -8,7 +8,7 @@ export default function Header() {
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
       </div>
-      <div className="">
+      <div className=""></div>
        </div>
   )
 }
