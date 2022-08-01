@@ -9,10 +9,9 @@ export default function Header() {
         </Link>
       </div>
       <div className="">
-   
-         <Link to="/about">
-         <i className="fab fa-angular text-lg px-1"></i> Tentang
-          </Link>
-         </div>
+   <Link href="/">
+          <a className="text-xl font-bold">about</a>
+        </Link>
+      </div>
   )
 }
