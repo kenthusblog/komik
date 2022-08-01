@@ -5,7 +5,7 @@ import Footer from './Footer'
 import Header from './Header'
 
 export default function Layouts({ children, title }) {
-  const appName = 'BacaKomik'
+  const appName = 'BacaKomik Online'
   return (
     <div className="text-slate-800">
       <Head>
