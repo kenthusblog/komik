@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Footer from './Footer'
 
 import {
   ClockIcon,
@@ -31,6 +32,7 @@ const navs = [
     icon: <SearchCircleIcon className="w-6" />
   }      
 ]
+<Footer />
 
 export default function BottomNavigation() {
   const router = useRouter()
