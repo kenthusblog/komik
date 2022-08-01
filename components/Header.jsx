@@ -9,11 +9,10 @@ export default function Header() {
         </Link>
       </div>
       <div className="">
-    <li className={`mx-3 ${activeNavLink("/about")}`}>
+   
          <Link to="/about">
          <i className="fab fa-angular text-lg px-1"></i> Tentang
           </Link>
-          </li></div>
-    </div>
+         </div>
   )
 }
