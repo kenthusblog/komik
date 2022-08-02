@@ -9,9 +9,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="">
-	  <Link to="/listmanga" className="font-bold uppercase text-2xl">YM
-						</Link>
-         </div>
+	  </div>
        </div>
   )
 }
