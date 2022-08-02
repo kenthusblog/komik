@@ -57,7 +57,8 @@ export default function Details() {
             </div>
           </div>
         </div>
-        <div>
+        <div><script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-3cf12d1c-3a43-431a-8c90-8c3b1cfaabb2"></div>
           <table className="w-full sticky top-3">
             <tr>
               <td>Jenis Komik</td>
@@ -98,10 +99,7 @@ export default function Details() {
           </table>
         </div>
       </div>
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-3cf12d1c-3a43-431a-8c90-8c3b1cfaabb2"></div>
-      
-      
+            
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
