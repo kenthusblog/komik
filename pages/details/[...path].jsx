@@ -98,6 +98,7 @@ export default function Details() {
           </table>
         </div>
       </div>
+      <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62e8800317b25fe8"></script> 
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
