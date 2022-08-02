@@ -27,10 +27,7 @@ export default function Layouts({ children, title }) {
           rel="stylesheet"
         />
       </Head>
-       <Link to="/recipes">
-                {" "}
-                <i className="fa fa-clipboard-list"></i> Resep
-              </Link>
+      
       <Header />
       <Contents body={children} />
       
