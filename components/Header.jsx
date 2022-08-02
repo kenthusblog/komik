@@ -8,7 +8,8 @@ export default function Header() {
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
       </div>
-      <div className=""><Link to="/listmanga" className="font-bold uppercase text-2xl">YM
+      <div className="">
+	  <Link to="/listmanga" className="font-bold uppercase text-2xl">YM
 						</Link>
          </div>
        </div>
