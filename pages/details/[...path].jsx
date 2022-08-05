@@ -57,15 +57,7 @@ export default function Details() {
             </div>
           </div>
         </div>
-        <div><script type="module">
-  import shareButtons from 'https://cdn.skypack.dev/share-buttons';
-</script><div class="share-btn">
-    <a class="btn-vk" data-id="vk">VK</a>
-    <a class="btn-facebook" data-id="fb">Facebook</a>
-    <a class="btn-twitter" data-id="tw">Twitter</a>
-    <a class="btn-telegram" data-id="tg">Telegram</a>
-    <a class="btn-mail" data-id="mail">EMail</a>
-</div>
+        <div>
 
           <table className="w-full sticky top-3">
             <tr>
