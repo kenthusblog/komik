@@ -57,8 +57,9 @@ export default function Details() {
             </div>
           </div>
         </div>
-        <div><script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-3cf12d1c-3a43-431a-8c90-8c3b1cfaabb2"></div>
+        <div><script type="module">
+  import shareButtons from 'https://cdn.skypack.dev/share-buttons';
+</script>
           <table className="w-full sticky top-3">
             <tr>
               <td>Jenis Komik</td>
