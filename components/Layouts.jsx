@@ -13,7 +13,7 @@ export default function Layouts({ children, title }) {
        <meta charSet="utf-8" />
        <meta name="description" content={description}></meta>
 
-       <meta property="og:title" content={pageTitle} key="ogtitle" />
+       <meta property="og:title" content={title} key="ogtitle" />
 
        <meta property="og:description" content={description} key="ogdesc" />
               
