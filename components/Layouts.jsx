@@ -10,7 +10,16 @@ export default function Layouts({ children, title }) {
     <div className="text-slate-800">
       <Head>
         <title>{title ? `${appName} - ${title}` : appName}</title>
-         <meta property="og:url" content="https://www.example.com" />
+         <meta property="og:image" content="https://mywebsite.com/images/s1.jpg"/>
+
+         <meta property="og:title" content="Your Title"/>
+
+         <meta property="og:description" content="A full description of the page."/>
+
+         <meta property="og:image:width" content="1200"/>
+
+         <meta property="og:image:height" content="630"/>
+
      
         <link rel="icon" href="/favicon.ico" />
 
