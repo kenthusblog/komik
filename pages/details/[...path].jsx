@@ -5,8 +5,6 @@ import { join } from 'path'
 import { useEffect, useState } from 'react'
 import { NoData } from '../../components/Errors'
 
-
-
 export default function Details() {
   const router = useRouter()
   const { path } = router.query
@@ -60,7 +58,6 @@ export default function Details() {
           </div>
         </div>
         <div>
-
           <table className="w-full sticky top-3">
             <tr>
               <td>Jenis Komik</td>
@@ -101,8 +98,7 @@ export default function Details() {
           </table>
         </div>
       </div>
-            
-          
+
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
