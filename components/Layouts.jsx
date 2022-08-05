@@ -11,10 +11,12 @@ export default function Layouts({ children, title }) {
       <Head>
        <meta name="viewport" content="width=device-width, initial-scale=1" />
        <meta charSet="utf-8" />
-         
-              
-        <title>{title ? `${appName} - ${title}` : appName}</title>
-        <link rel="icon" href="/favicon.ico" />
+       <title>{title ? `${appName} - ${title}` : appName}</title>
+       <meta property="og:title" content="Baca Komik Online" />
+  <meta property="og:description" content="Baca Kimik Online" />
+  <meta property="og:url" content="kenthus.vercel.app" />
+  <meta property="og:type" content="website" />
+       <link rel="icon" href="/favicon.ico" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
