@@ -4,6 +4,26 @@ import Layouts from '../../components/Layouts'
 import { join } from 'path'
 import { useEffect, useState } from 'react'
 import { NoData } from '../../components/Errors'
+import {
+  FacebookShareButton,
+  GooglePlusShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  TelegramShareButton,
+  WhatsappShareButton,
+  PinterestShareButton,
+  VKShareButton,
+  OKShareButton,
+  RedditShareButton,
+  TumblrShareButton,
+  LivejournalShareButton,
+  MailruShareButton,
+  ViberShareButton,
+  WorkplaceShareButton,
+  EmailShareButton,
+} from 'react-share';
+
+
 
 export default function Details() {
   const router = useRouter()
@@ -100,7 +120,8 @@ export default function Details() {
         </div>
       </div>
             
-            
+       <FacebookShareCount url={shareUrl} />
+     
             
           
 <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=${currentUrl}" target="_blank" rel="noopener" aria-label="Facebook">
