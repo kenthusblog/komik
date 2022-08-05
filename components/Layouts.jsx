@@ -28,8 +28,8 @@ export default function Layouts({ children, title }) {
 
       <Header />
       <Contents body={children} />
-      <Footer />
       <BottomNavigation />
+    <Footer />
     </div>
   )
 }
