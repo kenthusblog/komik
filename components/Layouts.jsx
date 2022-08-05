@@ -11,13 +11,7 @@ export default function Layouts({ children, title }) {
       <Head>
         <title>{title ? `${appName} - ${title}` : appName}</title>
          <meta property="og:url" content="https://www.example.com" />
-          <meta property="og:title" content="Open Graph Title" />
-          <meta property="og:description" content="Open Graph Description" />
-          <meta property="og:image" content="https://www.example.com/og-image.jpg" />
-          <meta property="og:site_name" content="YourSiteName" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@site" />
-          <meta name="twitter:creator" content="@handle" /
+     
         <link rel="icon" href="/favicon.ico" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
