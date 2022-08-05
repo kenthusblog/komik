@@ -4,24 +4,7 @@ import Layouts from '../../components/Layouts'
 import { join } from 'path'
 import { useEffect, useState } from 'react'
 import { NoData } from '../../components/Errors'
-import {
-  FacebookShareButton,
-  GooglePlusShareButton,
-  LinkedinShareButton,
-  TwitterShareButton,
-  TelegramShareButton,
-  WhatsappShareButton,
-  PinterestShareButton,
-  VKShareButton,
-  OKShareButton,
-  RedditShareButton,
-  TumblrShareButton,
-  LivejournalShareButton,
-  MailruShareButton,
-  ViberShareButton,
-  WorkplaceShareButton,
-  EmailShareButton,
-} from 'react-share';
+
 
 
 
