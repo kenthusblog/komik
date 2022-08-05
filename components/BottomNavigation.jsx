@@ -29,9 +29,8 @@ const navs = [
     title: 'Search',
     path: ['/search'],
     icon: <SearchCircleIcon className="w-6" />
-  }     
+  }
 ]
-
 
 export default function BottomNavigation() {
   const router = useRouter()
