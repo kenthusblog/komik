@@ -98,7 +98,6 @@ export default function Details() {
           </table>
         </div>
       </div>
-      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={chapter.path}">Share on Facebook</a>
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
