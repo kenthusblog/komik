@@ -38,6 +38,13 @@ export default function Layouts({ children, title }) {
       <Header />
       <Contents body={children} />
       <BottomNavigation />
+      <div class="share-btn">
+    <a data-id="vk">VK</a>
+    <a data-id="fb">Facebook</a>
+    <a data-id="tw">Twitter</a>
+    <a data-id="tg">Telegram</a>
+    <a data-id="mail">EMail</a>
+</div>
     <Footer />
     </div>
   )
