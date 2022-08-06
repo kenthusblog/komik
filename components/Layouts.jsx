@@ -34,7 +34,7 @@ export default function Layouts({ children, title }) {
           rel="stylesheet"
         />
       </Head>
-
+      <script src="//cdn.jsdelivr.net/npm/share-buttons/dist/share-buttons.js"></script>
       <Header />
       <Contents body={children} />
       <BottomNavigation />
