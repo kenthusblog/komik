@@ -125,15 +125,16 @@ export default function Details() {
                   Baca
                 </a>
               </Link>
-            </td>
+           
             
             
             
-              <a href='https://poplarwindowsmasculine.com/cm550uykw4?key=b94c4d1b657b922c07a4cfa65d641fa4'>
+              <link href='https://poplarwindowsmasculine.com/cm550uykw4?key=b94c4d1b657b922c07a4cfa65d641fa4'>
                 <a className="bg-green-500 text-white duration-300 inline-block font-bold rounded-lg px-3 py-2">
                   Download
                 </a>
-            
+                </Link>
+             </td>
           </tr>
         ))}
       </table>
