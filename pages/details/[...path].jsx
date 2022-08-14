@@ -124,7 +124,7 @@ export default function Details() {
                 <a className="bg-green-500 text-white duration-300 inline-block font-bold rounded-lg px-3 py-2">
                   Baca
                 </a>
-              </Link> - 
+              </Link>    
               
               
               
