@@ -10,11 +10,11 @@ export default function Layouts({ children, title }) {
     <div className="text-slate-800">
       <Head>
         <title>{title ? `${appName} - ${title}` : appName}</title>
-         <meta property="og:image" content="https://mywebsite.com/images/s1.jpg"/>
+         <meta property="og:image" content="/baca-komik.jpg"/>
 
-         <meta property="og:title" content="Baca Komik Online"/>
+         <meta property="og:title" content="Baca Komik Online Terlengkap"/>
 
-         <meta property="og:description" content="A full description of the page."/>
+         <meta property="og:description" content="Baca Komik Online Terlengkap dan Terupdate"/>
 
          <meta property="og:image:width" content="1200"/>
 
