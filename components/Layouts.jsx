@@ -12,7 +12,7 @@ export default function Layouts({ children, title }) {
         <title>{title ? `${appName} - ${title}` : appName}</title>
          <meta property="og:image" content="https://mywebsite.com/images/s1.jpg"/>
 
-         <meta property="og:title" content="Your Title"/>
+         <meta property="og:title" content="Baca Komik Online"/>
 
          <meta property="og:description" content="A full description of the page."/>
 
