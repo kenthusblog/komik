@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <Layouts title="Home">
       <div className="grid md:grid-cols-2 gap-3 my-3">
-        <div></div>
+        <div></div>SILAHKAN REFRESH HALAMAN JIKA KOMIK TIDAK DITAMPILAN !!
         <div>
           <input
             onChange={searching}
@@ -60,7 +60,7 @@ export default function Home() {
             Pencarian
           </h1>
           <p className="text-center mb-3">
-            Berikuut ini hasil pencarian dari <strong>{searchQuery}</strong>
+            Berikut ini hasil pencarian dari <strong>{searchQuery}</strong>
           </p>
           {searchComics && (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7 gap-3 mx-auto">
