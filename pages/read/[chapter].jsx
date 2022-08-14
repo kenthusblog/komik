@@ -73,15 +73,6 @@ export default function Read() {
         </div>
       </div>
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e8b40caaabd35be9130a32d755e4c10f',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://poplarwindowsmasculine.com/e8b40caaabd35be9130a32d755e4c10f/invoke.js"></scr' + 'ipt>');
-</script>    </Layouts>
+  </Layouts>
   )
 }
