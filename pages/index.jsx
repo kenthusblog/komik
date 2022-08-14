@@ -42,7 +42,10 @@ export default function Home() {
   return (
     <Layouts title="Home">
       <div className="grid md:grid-cols-2 gap-3 my-3">
-        <div></div>SILAHKAN REFRESH HALAMAN JIKA KOMIK TIDAK DITAMPILAN !!
+        <div></div>
+         <div>
+         SILAHKAN REFRESH HALAMAN JIKA KOMIK TIDAK DITAMPILAN !!
+        </div>
         <div>
           <input
             onChange={searching}
