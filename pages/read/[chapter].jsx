@@ -40,7 +40,7 @@ export default function Read() {
   return (
     <Layouts title="">
       <div className="text-center">
-        <h1 className="text-xl text-green-500 font-bold">{title}</h1>
+        <h2 className="text-xl text-green-500 font-bold">{title}</h2>
       </div>
 
       <div className="my-3 overflow-hidden rounded-lg shadow-lg w-full md:max-w-3xl mx-auto">
@@ -72,6 +72,16 @@ export default function Read() {
           )}
         </div>
       </div>
-    </Layouts>
+
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'e8b40caaabd35be9130a32d755e4c10f',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://poplarwindowsmasculine.com/e8b40caaabd35be9130a32d755e4c10f/invoke.js"></scr' + 'ipt>');
+</script>    </Layouts>
   )
 }
