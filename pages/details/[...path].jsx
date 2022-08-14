@@ -125,7 +125,7 @@ export default function Details() {
                   Baca
                 </a>
               </Link>
-           
+             </td>
             
             
             
@@ -134,7 +134,7 @@ export default function Details() {
                   Download
                 </a>
                 </Link>
-             </td>
+             
           </tr>
         ))}
       </table>
