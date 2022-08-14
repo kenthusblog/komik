@@ -38,16 +38,7 @@ export default function Layouts({ children, title }) {
       <script async="async" data-cfasync="false" src="//poplarwindowsmasculine.com/60445a6b144e3cc5cf8cae41c2d85d9b/invoke.js"></script>
 <div id="container-60445a6b144e3cc5cf8cae41c2d85d9b"></div>
       <Contents body={children} />
-      <script type="text/javascript">
-	atOptions = {
-		'key' : 'e8b40caaabd35be9130a32d755e4c10f',
-		'format' : 'iframe',
-		'height' : 60,
-		'width' : 468,
-		'params' : {}
-	};
-	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://poplarwindowsmasculine.com/e8b40caaabd35be9130a32d755e4c10f/invoke.js"></scr' + 'ipt>');
-</script>  
+     
       <BottomNavigation />
        <Footer />
     </div>
