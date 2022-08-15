@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import BottomNavigation from './BottomNavigation'
 
 export default function Header() {
   return (
