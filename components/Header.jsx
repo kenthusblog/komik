@@ -5,7 +5,7 @@ export default function Header() {
   return (
      <div className="p-3 flex justify-between items-center bg-green-500 text-white">
     <div>
-  <Image src="/baca-logo.png" width={60} height={60} layout="responsive" />
+  <Image src="/baca-logo.png" width={60} height={60}  />
 </div> 
     
     <div className="">
