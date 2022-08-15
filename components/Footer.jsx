@@ -11,6 +11,9 @@ export default function Footer() {
       >
         KTS
       </a>
+     <p class="font-mono ...">
+      INDONESIA
+     </p>
       </div>
     </footer>
   )
