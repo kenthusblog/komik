@@ -40,8 +40,10 @@ export default function Read() {
   return (
     <Layouts title="">
       <div className="text-center">
+      <div class="h-14 bg-gradient-to-r from-cyan-500 to-blue-500">
         <h2 className="text-xl text-green-500 font-bold">{title}</h2>
-      </div>
+     </div>
+     </div>
 
       <div className="my-3 overflow-hidden rounded-lg shadow-lg w-full md:max-w-3xl mx-auto">
         {pages.map((page, i) => (
