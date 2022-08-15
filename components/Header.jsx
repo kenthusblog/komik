@@ -4,11 +4,10 @@ import Image from 'next/image'
 export default function Header() {
   return (
      <div className="p-3 flex justify-between items-center bg-green-500 text-white">
-     
-    <div className="">
-            <Image src="/baca-logo.png" width={35} height={35}  />
-        <Link href="/">
-          <a className="text-xl font-bold">BacaKomik</a>
+      <div className="">
+         <Link href="/">
+          <a className="text-xl font-bold"> <Image src="/baca-logo.png" width={35} height={35}  />
+         BacaKomik</a>
         </Link>
        </div>
       <div className=""></div>
