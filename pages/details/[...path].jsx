@@ -113,7 +113,6 @@ export default function Details() {
         {chapters.map((chapter, i) => (
           <tr>
             <td>
-             <div class="flex space-x-4 ...">
               <Link href={chapter.path}>
                 <a className="hover:text-green-500 duration-300 block font-bold">
                   Chapter: {chapter.title.replace('Chapter ', '')}
@@ -134,7 +133,7 @@ export default function Details() {
                   Download
                 </a>
               </Link>
-              </div>
+              
              </td>
                         
           </tr>
