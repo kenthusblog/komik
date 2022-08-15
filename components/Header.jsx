@@ -5,6 +5,7 @@ export default function Header() {
   return (
     <div className="p-3 flex justify-between items-center bg-green-500 text-white">
       <div className="">
+    <img class="w-16 md:w-32 lg:w-48" src="baca-logo.png">
         <Link href="/">
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
