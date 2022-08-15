@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <div className="p-3 flex justify-between items-center bg-green-500 text-white">
-<div style={{width: '20%'}}>
+<div style={{width: '5%'}}>
   <Image src="/baca-logo.png" width={20} height={20} layout="responsive" />
 </div>
       <div className="">
