@@ -109,12 +109,11 @@ export default function Details() {
       <h2 className="text-xl font-bold text-green-500">Deskripsi</h2>
       <p className="bg-green-500/30 p-3 rounded-lg my-3">{description}</p>
       <h2 className="text-xl font-bold text-green-500">Chapters</h2>
-      
-      <div class="flex space-x-4 ...">
-      <table className="w-full">
+    <table className="w-full">
         {chapters.map((chapter, i) => (
           <tr>
             <td>
+             <div class="flex space-x-4 ...">
               <Link href={chapter.path}>
                 <a className="hover:text-green-500 duration-300 block font-bold">
                   Chapter: {chapter.title.replace('Chapter ', '')}
