@@ -13,8 +13,9 @@ export default function Header() {
         </Link>
        </div>
       <div className=""></div>
-    </div>
       <BottomNavigation />
+
+    </div>
 
 
   )
