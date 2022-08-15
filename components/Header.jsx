@@ -11,10 +11,11 @@ export default function Header() {
         <Link href="/">
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
-
-      <BottomNavigation />
        </div>
       <div className=""></div>
     </div>
+      <BottomNavigation />
+
+
   )
 }
