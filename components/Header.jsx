@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import BottomNavigation from './BottomNavigation'
 
 export default function Header() {
   return (
@@ -10,6 +11,8 @@ export default function Header() {
         <Link href="/">
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
+
+      <BottomNavigation />
        </div>
       <div className=""></div>
     </div>
