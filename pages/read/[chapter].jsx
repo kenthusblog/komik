@@ -41,7 +41,7 @@ export default function Read() {
     <Layouts title="">
       <div className="text-center">
       <div class="bg-sky-500/50">
-        <h2 className="text-xl text-white-900 font-bold">{title}</h2>
+        <h2 className="text-xl font-bold">{title}</h2>
      </div>
      </div>
 
