@@ -109,6 +109,8 @@ export default function Details() {
       <h2 className="text-xl font-bold text-green-500">Deskripsi</h2>
       <p className="bg-green-500/30 p-3 rounded-lg my-3">{description}</p>
       <h2 className="text-xl font-bold text-green-500">Chapters</h2>
+      
+      <div class="flex space-x-4 ...">
       <table className="w-full">
         {chapters.map((chapter, i) => (
           <tr>
@@ -120,8 +122,7 @@ export default function Details() {
               </Link>
             </td>
             <td className="text-right">
-            <div class="flex space-x-4 ...">
-            
+                        
               <Link href={chapter.path}>
                 <a className="bg-green-500 text-white duration-300 inline-block font-bold rounded-lg px-3 py-2">
                   Baca
