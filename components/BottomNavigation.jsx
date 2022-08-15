@@ -42,7 +42,8 @@ export default function BottomNavigation() {
   }, [])
 
   return (
-    <div className="sticky inset-x-0 bottom-0 bg-green-500 text-white">
+    <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
+    <div className="sticky inset-x-0 bottom-0 text-white">
       <div className="grid grid-cols-4">
         {navs.map(({ title, path, icon }, i) => (
           <Link key={i} href={path[0]}>
@@ -56,6 +57,7 @@ export default function BottomNavigation() {
             </a>
           </Link>
         ))}
+      </div>
       </div>
     </div>
   )
