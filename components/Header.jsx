@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <div className="p-3 flex justify-between items-center bg-green-500 text-white">
+    <div className="p-3 flex justify-between items-center text-white">
        <div className="">
         <Link href="/">
           <a className="text-2xl font-bold">BacaKomik</a>
