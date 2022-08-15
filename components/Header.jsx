@@ -6,8 +6,8 @@ export default function Header() {
      <div className="p-3 flex justify-between items-center bg-green-500 text-white">
      
     <div className="">
-        <Link href="/"><div>
-    <Image src="/baca-logo.png" width={50} height={50}  /></div>
+        <Link href="/">
+    <Image src="/baca-logo.png" width={40} height={40}  />
           <a className="text-xl font-bold">BacaKomik</a>
         </Link>
        </div>
