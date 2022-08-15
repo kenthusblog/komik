@@ -121,13 +121,12 @@ export default function Details() {
             </td>
             <td className="text-right">
             <div class="flex space-x-4 ...">
-            <div>
+            
               <Link href={chapter.path}>
                 <a className="bg-green-500 text-white duration-300 inline-block font-bold rounded-lg px-3 py-2">
                   Baca
                 </a>
               </Link>    
-              </div>
               
               
               <Link href='https://poplarwindowsmasculine.com/cm550uykw4?key=b94c4d1b657b922c07a4cfa65d641fa4'>
