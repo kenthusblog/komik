@@ -4,7 +4,6 @@ import Layouts from '../../components/Layouts'
 import { join } from 'path'
 import { useEffect, useState } from 'react'
 import { NoData } from '../../components/Errors'
-import ShareLink from 'react-facebook-share-link'
 
 export default function Details() {
   const router = useRouter()
