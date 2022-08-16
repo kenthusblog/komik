@@ -98,8 +98,7 @@ export default function Details() {
           </table>
         </div>
       </div>
-       
-      <h2 className="text-xl font-bold text-green-500">Genre</h2>
+     <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
           <a className="px-2 py-0 bg-green-500/10 text-green-500 rounded-md inline-block m-0.5 border border-transparent hover:border-green-500 duration-300">
