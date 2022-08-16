@@ -98,6 +98,12 @@ export default function Details() {
           </table>
         </div>
       </div>
+      <ShareLink link='https://your-site.com/some-page'>
+   {link => (
+      <a href={link} target='_blank'>Share this on Facebook</a>
+   )}
+</ShareLink>
+      
       <h2 className="text-xl font-bold text-green-500">Genre</h2>
       <p className="mb-3">
         {genres.map((g, i) => (
