@@ -11,6 +11,7 @@ export default function Layouts({ children, title }) {
       <Head>
         <title>{title ? `${appName} - ${title}` : appName}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="komik online, baca komik" />
          <meta property="og:image" content="/baca-komik.jpg"/>
 
          <meta property="og:title" content="Baca Komik Online Terlengkap"/>
