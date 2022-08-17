@@ -3,7 +3,7 @@ import Loading from './Loading'
 
 export function NoData({ error }) {
   return (
-    <Layouts title={title ? `${appName} - ${title}` : appName}>
+    <Layouts title={title}>
       {!error && <Loading message="Sedang memuat komik..." loading={true} />}
       {error && (
         <>
