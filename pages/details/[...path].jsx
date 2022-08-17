@@ -43,6 +43,7 @@ export default function Details() {
   } = data
 
   return (
+    <title>{title ? `${appName} - ${title}` : appName}</title>
     <Layouts title={title}>
       <div className="grid sm:grid-cols-2 gap-3 mb-3">
         <div>
