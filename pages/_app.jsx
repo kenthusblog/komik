@@ -4,12 +4,17 @@ import { useEffect } from 'react'
 import 'aos/dist/aos.css'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, canonical }) {
   useEffect(() => {
     Aos.init()
   }, [])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Seo canonical={canonical} />
+      <Component {...pageProps} canonical={canonical} />
+    </>
+  );
 }
 
 export default MyApp
