@@ -23,7 +23,8 @@ export default function Layouts({ children, title }) {
          <meta property="og:image:width" content="1200"/>
 
          <meta property="og:image:height" content="630"/>
-
+         
+        <meta name="robots" content="follow, index" />
      
         <link rel="icon" href="/favicon.ico" />
 
