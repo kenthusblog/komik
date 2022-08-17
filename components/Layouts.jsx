@@ -16,7 +16,7 @@ export default function Layouts({ children, title }) {
         
          <meta property="og:image" content="/baca-komik.jpg"/>
 
-         <meta property="og:title" content="Baca Komik Online Terlengkap"/>
+         <meta key="og_title" property="og:title" content={title} />
 
          <meta property="og:description" content="Baca Komik Online Terlengkap dan Terupdate"/>
 
