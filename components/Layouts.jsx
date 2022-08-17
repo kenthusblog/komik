@@ -19,9 +19,7 @@ export default function Layouts({ children, title }) {
          <meta key="og_title" property="og:title" content={title ? `${appName} - ${title}` : appName} />
 
          <meta property="og:description" content="Baca Komik Online Terlengkap dan Terupdate"/>
-         
-         <meta property="og:description" content={meta.description} />
-         
+                
          <meta property="og:image:width" content="1200"/>
 
          <meta property="og:image:height" content="630"/>
