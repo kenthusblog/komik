@@ -18,8 +18,8 @@ export default function Layouts({ children, title }) {
 
          <meta key="og_title" property="og:title" content={title} />
 
-         <meta key="og_description" property="og:description" content={description} />
-
+         <meta name="description" content={description} />
+         
          <meta property="og:image:width" content="1200"/>
 
          <meta property="og:image:height" content="630"/>
