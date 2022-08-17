@@ -5,9 +5,7 @@ import Footer from './Footer'
 import Header from './Header'
 
 export default function Layouts({ children, title }) 
-const DOMAIN = "https://kenthus.vercel.app";
-const DEFAULT_OG_IMAGE =
-  "https://storage.googleapis.com/brandflow-bucket/personal/blog/portfolio-og.jpg";
+
 {
   const appName = 'BacaKomik'
   
