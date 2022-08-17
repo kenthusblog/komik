@@ -10,15 +10,25 @@ export default function Layouts({ children, title }) {
     <div className="text-slate-800">
       <Head>
         <title>{title ? `${appName} - ${title}` : appName}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content={description} />
+        
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        
+      <meta name="description" content={description} />
+        
       <meta key="og_type" property="og:type" content={ogType} />
+         
       <meta key="og_title" property="og:title" content={title} />
+      
       <meta key="og_description" property="og:description" content={description} />
+      
       <meta key="og_locale" property="og:locale" content="en_IE" />
+      
       <meta key="og_site_name" property="og:site_name" content={siteName} />
+      
       <meta key="og_url" property="og:url" content={canonical ?? DOMAIN} />
+      
       <meta key="og_site_name" property="og:site_name" content={siteName} />
+      
       <meta
         key="og_image"
         property="og:image"
