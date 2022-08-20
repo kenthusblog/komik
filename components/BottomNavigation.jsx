@@ -46,15 +46,8 @@ export default function BottomNavigation() {
     <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
       <div className="grid grid-cols-4">
         {navs.map(({ title, path, icon }, i) => (
-          <Link key={i} href={path[0]}>
-            <a
-              className={`px-3 pt-2 pb-1 sm:p-3 text-center inline-block text-sm duration-300 ${
-                active === path ? 'bg-gradient-to-r' : ''
-              }`}
-            >
-              <div className="max-w-max mx-auto">{icon}</div>
-              {title}
-            </a>
+        <Link href="/">
+            <a className="text-xl font-bold">BacaKomik</a>
           </Link>
         ))}
       </div>
