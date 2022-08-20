@@ -40,6 +40,7 @@ export default function Layouts({ children, title }) {
         />
       </Head>
       <Header />
+           <BottomNavigation />
       <script async="async" data-cfasync="false" src="//poplarwindowsmasculine.com/60445a6b144e3cc5cf8cae41c2d85d9b/invoke.js"></script>
 <div id="container-60445a6b144e3cc5cf8cae41c2d85d9b"></div>
       <Contents body={children} />
