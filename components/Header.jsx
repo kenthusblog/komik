@@ -7,7 +7,9 @@ export default function Header() {
      <div className="p-3 flex justify-between items-center text-white">
        <div className="">
         <Link href="/">
-          <a className="text-2xl font-bold">BacaKomik</a>
+          <a className={`px-3 pt-2 pb-1 sm:p-3 text-center inline-block text-sm duration-300 ${
+                active === path ? 'bg-gradient-to-r' : ''
+              }`}>BacaKomik</a>
         </Link>
       </div>
     </div>
