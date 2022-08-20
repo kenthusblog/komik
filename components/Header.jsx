@@ -7,7 +7,7 @@ export default function Header() {
      <div className="p-3 flex justify-between items-center text-white">
        <div className="">
         <Link href="/">
-          <a className="text-xl font-bold inline-block text-sm duration-300">BacaKomik</a>
+          <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
         </Link>
       </div>
     </div>
