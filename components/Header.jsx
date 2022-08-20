@@ -13,8 +13,8 @@ export default function Header() {
       </div>
     </div>
       <div className=""></div>
-    </div>
-     <BottomNavigation />
+         <BottomNavigation />
 
+    </div>
   )
 }
