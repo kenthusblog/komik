@@ -45,8 +45,9 @@ export default function Layouts({ children, title }) {
 <div id="container-60445a6b144e3cc5cf8cae41c2d85d9b"></div>
       <Contents body={children} />
      <script type='text/javascript' src='//poplarwindowsmasculine.com/ec/7a/7e/ec7a7e7400b93f9a296d2062610ec4a2.js'></script>
-     <BottomNavigation />
-       <Footer />
+
+
+<Footer />
     </div>
   )
 }
