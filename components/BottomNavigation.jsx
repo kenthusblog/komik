@@ -42,7 +42,7 @@ export default function BottomNavigation() {
   }, [])
 
   return (
-    <div className="sticky inset-x-0 bottom-0 text-white">
+    <div className="sticky inset-x-0 top-0 text-white">
     <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
       <div className="grid grid-cols-4">
         {navs.map(({ title, path, icon }, i) => (
