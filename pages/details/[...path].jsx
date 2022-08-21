@@ -43,7 +43,6 @@ export default function Details() {
   } = data
 
   return (
-    <meta property="og:image" content="/{`/api/image?url=${thumb}`}"/>
     <Layouts title={title}>
       <div className="grid sm:grid-cols-2 gap-3 mb-3">
         <div>
