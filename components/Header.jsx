@@ -5,9 +5,9 @@ export default function Header() {
     <div class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
         <div className="p-3 flex justify-between items-center bg-green-500 text-white">
        <div className="">
-        <img src="/baca-logo.png" />
         <Link href="/">
-          <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
+            <img src="/baca-logo.png" />
+           <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
         </Link>
     </div>
 
