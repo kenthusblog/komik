@@ -10,6 +10,7 @@ export default function Header() {
           <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
         </Link>
     </div>
+    </div>
       <div className=""></div>
     </div>
     </div>
