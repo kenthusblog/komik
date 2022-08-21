@@ -13,6 +13,5 @@ export default function Header() {
       <div className=""></div>
     </div>
     </div>
-    </div>
   )
 }
