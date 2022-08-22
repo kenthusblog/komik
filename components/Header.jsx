@@ -8,7 +8,7 @@ export default function Header() {
                 <img src="/baca-logo.png" />
         <Link href="/">
            <a className="text-xl font-bold inline-block duration-300">
-    <span class="block absolute -inset-1 -skew-y-3 bg-pink-500" aria-hidden="true"></span>
+    <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
     <span class="relative text-white">BacaKomik</span></span></a>
         </Link>
     </div>
