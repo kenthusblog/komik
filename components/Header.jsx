@@ -7,7 +7,7 @@ export default function Header() {
        <div className="">
                 <img src="/baca-logo.png" />
         <Link href="/">
-           <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
+           <a className="text-xl font-bold inline-block duration-300"><span class="relative text-white">BacaKomik</span></a>
         </Link>
     </div>
 
