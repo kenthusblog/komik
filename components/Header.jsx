@@ -10,7 +10,11 @@ export default function Header() {
            <a className="text-xl font-bold inline-block duration-300">BacaKomik</a>
         </Link>
     </div>
-
+<Nav>
+        <NavItem href="/new" isActive>New Releases</NavItem>
+        <NavItem href="/top">Top Rated</NavItem>
+        <NavItem href="/picks">Vincent’s Picks</NavItem>
+      </Nav>
     </div>
     </div>
   )
