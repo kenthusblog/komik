@@ -45,6 +45,8 @@ export default function Layouts({ children, title }) {
       <script async="async" data-cfasync="false" src="//poplarwindowsmasculine.com/60445a6b144e3cc5cf8cae41c2d85d9b/invoke.js"></script>
 <div id="container-60445a6b144e3cc5cf8cae41c2d85d9b"></div>
       <Contents body={children} />
+      <script async="async" data-cfasync="false" src="//poplarwindowsmasculine.com/713743a4b1aa3a34af7d634ca26d35a5/invoke.js"></script>
+<div id="container-713743a4b1aa3a34af7d634ca26d35a5"></div>
      <script type='text/javascript' src='//poplarwindowsmasculine.com/ec/7a/7e/ec7a7e7400b93f9a296d2062610ec4a2.js'></script>
       <BottomNavigation />
 <Footer />
